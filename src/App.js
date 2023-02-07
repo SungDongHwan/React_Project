@@ -11,7 +11,8 @@ const App=()=> {
   //    <Frcst />
   //  </div>
   //<Taccident/>
-    <Mycom />
+  //  <Mycom />
+   <Gal/>
       );
 }
 
