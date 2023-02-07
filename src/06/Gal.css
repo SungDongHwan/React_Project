@@ -1,0 +1,45 @@
+.list1
+{ 
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2em;
+}
+img {
+    height: 30vw;
+}
+
+ul > li {
+    display:flex;
+    margin: 2px;
+}
+.data{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+    border: 1px solid  black;
+    margin : 10px;
+    height: max-content;
+}
+ul {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: top;
+    border: 1px solid  black;
+    margin : 10px;
+    width : 100%;
+
+}
+.concard {
+    width : 100%;
+    margin-top :10px;
+    display: flex;
+    background-color: rgb(109, 53, 53);
+    align-items: center;
+    justify-content: top;
+
+}
