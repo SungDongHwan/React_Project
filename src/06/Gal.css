@@ -1,45 +1,68 @@
-.list1
+.List1
 { 
     display: flex;
     align-items: top;
-    justify-content: center;
-    flex-direction: column;
-    margin: 2em;
-}
-img {
-    height: 30vw;
-}
-
-ul > li {
-    display:flex;
-    margin: 2px;
-}
-.data{
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
     justify-content: top;
     flex-direction: column;
-    border: 1px solid  black;
+    margin: 1em;
+}
+.List{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+img {
+    height: 30vh;
+    border-radius: 20px;
+}
+.sp2{
+    width:100%
+
+}
+ul > li {
+    margin: 2px;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+}
+.data{
     margin : 10px;
-    height: max-content;
+    height: 80%;
+    width: 40vh;
 }
 ul {
     display: flex;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
+    align-items: left;
     justify-content: top;
-    border: 1px solid  black;
     margin : 10px;
     width : 100%;
 
 }
-.concard {
+.tcard {
     width : 100%;
     margin-top :10px;
     display: flex;
-    background-color: rgb(109, 53, 53);
+    background-color:ghostwhite;
     align-items: center;
     justify-content: top;
+    cursor: pointer;
 
+}
+.List>.conleftdiv{
+    background-color: blue;
+    padding: 10px;
+    box-sizing: 200px;
+}
+
+button[type=reset] {
+    background-color: #8000ff;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 6px;
+    cursor: pointer;
+    display: inline-flex;}
+input[type=txt]{
+    width:max-content;
 }

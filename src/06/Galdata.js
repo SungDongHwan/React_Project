@@ -4,7 +4,7 @@ const Galdata = ({ selData }) => {
 
     let dTags;
     if (Object.keys(selData).length > 0) {
-        let keys = ["galTitle", "galWebImageUrl", "galPhotographyMonth", "galPhotographyLocation", "galPhotographer", "galSearchKeyword"]
+        let keys = [ "galWebImageUrl","galTitle", "galPhotographyMonth", "galPhotographyLocation", "galPhotographer", "galSearchKeyword"]
 
 
         dTags = keys.map((i) =>
