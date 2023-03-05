@@ -1,11 +1,9 @@
-import './App.css';
-import Box from './02/Box'
-import Mydiv from './03/MyDiv';
-import Frcst from './04/Frcst';
-import Taccident from './05/Taccident';
-import Gal from './06/Gal'
-import Mycom from './07/Mycom';
-import Myform from './08/Myform';
+//import './App.css';
+//import Gal from './06/Gal'
+import { BrowserRouter } from 'react-router-dom';
+import Routermain from './09/Routermain';
+import Wmain from './10/Wmain';
+import Boxoffice from './11/Boxoffice'
 const App=()=> {
   return (
   //  <div>
@@ -13,8 +11,14 @@ const App=()=> {
   //  </div>
   //<Taccident/>
   //  <Mycom />
-   <Gal/>
+   //<Gal/>
    //<Myform/>
+   //<GalSelect/>
+   //<BrowserRouter>
+   // <Wmain/>
+   //</BrowserRouter>
+   <Boxoffice/>
+   
       );
 }
 

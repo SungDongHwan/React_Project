@@ -162,9 +162,9 @@ const Gal = () => {
               <div className="List">
               <GalList c1 = {c1} selC1 = {selC1} setSelC1={setSelC1}/>  
               </div>
-              <div className="data">
+              
               {selData && <Galdata selData={selData}/>}
-              </div>
+              
          </div>
 
         </>

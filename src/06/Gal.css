@@ -1,3 +1,7 @@
+.main{
+    display: flex;
+
+}
 .List1
 { 
     display: flex;
@@ -5,48 +9,46 @@
     justify-content: top;
     flex-direction: column;
     margin: 1em;
+    border : solid,1px;
 }
 .List{
     display: flex;
     justify-content: center;
-    width: 40%;
+    width: 30%;
 }
 img {
     height: 30vh;
     border-radius: 20px;
-}
-.sp2{
-    width:100%
-
-}
-ul > li {
-    margin: 2px;
-    justify-content: left;
-    align-items: left;
     width: 100%;
 }
-.data{
-    margin : 10px;
-    height: 80%;
-    width: 40vh;
+.sp2{
+    width: 100%;
+    margin: 12px;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
 }
+ul > li {
+    display: flex;
+    margin: 5px;
+    justify-content: left;
+    align-items: left;
+    width: 90%;
+    color: whitesmoke;
+    font-size:1em;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+
 ul {
     display: flex;
     align-items: left;
     justify-content: top;
+    flex-direction: column;
     margin : 10px;
-    width : 100%;
-
-}
-.tcard {
-    width : 100%;
-    margin-top :10px;
-    display: flex;
-    background-color:ghostwhite;
-    align-items: center;
-    justify-content: top;
-    cursor: pointer;
-
+    width : 60vw;
+    background-color: rgba(79, 39, 101, 0.559);
+    padding: 12px;
+    border-radius: 9px;
 }
 .List>.conleftdiv{
     background-color: blue;

@@ -1,0 +1,32 @@
+.whead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(89, 58, 204);
+    border: solid 1px;
+}
+.whead>h1{
+    font-size: 42px;
+    color: rgba(213, 213, 62, 0.798);
+}
+
+a, a:active {
+    font-size: large;
+    text-decoration: none;
+    height: 10vw;
+    color :wheat
+}
+ul>li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    background-color: brown;
+    list-style: none;
+    border-radius: 2px;
+    height: 20vw;
+    width: 60vw;
+    color: antiquewhite;
+}

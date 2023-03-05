@@ -27,7 +27,7 @@ const Gal = () => {
 
       let [Rkey,setRkey] =useState(''); 
       let [selC1, setSelC1] = useState();
-      let [selData, setSelData] = useState({});
+      let [selData, setSelData] = useState();
       const txtR = useRef();
       useEffect(() => {
         console.log("selC1" , selC1) ;

@@ -10,10 +10,8 @@ const Galdata = ({ selData }) => {
         dTags = keys.map((i) =>
 
             i.includes("Url") ? <img src={selData[i]} className='img' alt='' key={i} />
-                : <li key={i}>
-                    <span className="sp2">
-                        {selData[i]}
-                    </span>
+            :    <li key={i}>                   
+                        {selData[i]}                    
                 </li>
         );
     }
